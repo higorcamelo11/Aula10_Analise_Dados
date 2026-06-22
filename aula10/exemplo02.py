@@ -118,6 +118,7 @@ try:
         df_estelionato_outliers_superiores['mes_ano'],
         df_estelionato_outliers_superiores['estelionato']
     )
+    plt.xticks(rotation=45, ha='right')
     plt.title('OUTLIERS SUPERIORES')
     
     deslocamento = max(df_estelionato_outliers_superiores['estelionato']) * 0.01
